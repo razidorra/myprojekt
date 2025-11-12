@@ -1,0 +1,95 @@
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: linear-gradient(135deg, #011218, #2980b9);
+  color: #ece4e4;
+  text-align: center;
+  padding: 40px;
+  margin: 0;
+}
+
+h1 {
+  color: rgb(247, 245, 245);
+  margin-bottom: 40px;
+}
+
+.card {
+  background: rgb(12, 0, 0);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 400px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+#countLabel {
+  font-size: 3em;
+  display: block;
+  margin: 15px 0;
+}
+
+.button {
+  font-size: 1.1em;
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 6px;
+  background-color: #3498db;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.button:hover {
+  background-color: #1d6fa5;
+}
+
+/* Calculator Styles */
+#display {
+  width: 90%;
+  padding: 10px;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  text-align: right;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+#calc-buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  justify-items: center;
+}
+
+.calc-btn {
+  font-size: 1.2em;
+  padding: 15px;
+  width: 70px;
+  border: none;
+  border-radius: 6px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.calc-btn:hover {
+  background-color: #ddd;
+}
+
+.operator {
+  background-color: #ffb74d;
+}
+
+.operator:hover {
+  background-color: #ffa726;
+}
+
+.equals {
+  grid-column: span 4;
+  background-color: #4caf50;
+  color: white;
+}
+
+.equals:hover {
+  background-color: #43a047;
+}
