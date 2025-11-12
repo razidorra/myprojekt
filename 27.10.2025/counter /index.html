@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Counter + Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Counter & Calculator</h1>
+
+    <!-- Counter Section -->
+    <section class="card">
+      <h2>Counter</h2>
+      <label id="countLabel">0</label><br />
+      <div id="btncontainer">
+        <button id="decreasebtn" class="button">Decrease</button>
+        <button id="resetbtn" class="button">Reset</button>
+        <button id="increasebtn" class="button">Increase</button>
+      </div>
+    </section>
+
+    <!-- Calculator Section -->
+    <section class="card">
+      <h2>Calculator</h2>
+      <input type="text" id="display" readonly />
+      <div id="calc-buttons">
+        <button class="calc-btn">7</button>
+        <button class="calc-btn">8</button>
+        <button class="calc-btn">9</button>
+        <button class="calc-btn operator">/</button>
+
+        <button class="calc-btn">4</button>
+        <button class="calc-btn">5</button>
+        <button class="calc-btn">6</button>
+        <button class="calc-btn operator">*</button>
+
+        <button class="calc-btn">1</button>
+        <button class="calc-btn">2</button>
+        <button class="calc-btn">3</button>
+        <button class="calc-btn operator">-</button>
+
+        <button class="calc-btn">0</button>
+        <button class="calc-btn">.</button>
+        <button id="clear" class="calc-btn">C</button>
+        <button class="calc-btn operator">+</button>
+
+        <button id="equals" class="calc-btn equals">=</button>
+      </div>
+    </section>
+
+    <script src="index.js"></script>
+  </body>
+</html>
